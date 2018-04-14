@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    font-family: arial,Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+a{
+    color:#0066ff;
+    text-decoration: none;
+}
+a:hover{
+    color:#00aaff;
+}
+button{
+    color:white;
+    padding:10px 20px;
+    background:#0066ff;
+    border:none;
+    transition:all 0.1s ease-in-out;
+    bottom:10px;
+}
+button:hover{
+    background:#0af;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+#head{
+    width:60%;
+    margin: auto;
+    margin-top:100px;
+}
+#head img{
+    width:200px;
+    border-radius:100px;
+}
+.cardh{
+    padding:5px !important;
+}
+.container{
+    width:90%;
+    margin:auto;
+    text-align: center;
+    margin-top:50px;
+}
+#cardhold .card{
+    min-height: 200px;
+    padding:40px 30px;
+    background: rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+}
+#cardhold .card:hover{
+    box-shadow: 0 5px 10px #06f8;
+}

@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    font-family: arial,Helvetica, sans-serif;
+    background:#eeeeff;
+}
+button{
+    color:white;
+    padding:10px 20px;
+    background:#0066ff;
+    border:none;
+    transition:all 0.1s ease-in-out;
+}
+button:hover{
+    background:#0af;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+#mainhead h1{
+    font-size: 55px;
+    color:#0066ff;
+    font-weight: normal;
+    margin-top:100px;
+}
+input{
+    padding:10px;
+    width:50%;
+}
+#head{
+    width:60%;
+    margin-top:100px;
+}
+#head img{
+    width:200px;
+    margin: auto;
+    border-radius:100px;
+}
