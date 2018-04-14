@@ -58,6 +58,7 @@
     <title>Welcome <?php echo $id;?></title>
 </head>
 <body>
+    <div class="cover">
     <div class="row middle-xs" id="head">
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 center-xs" id="headimg">
         </div>
@@ -73,6 +74,7 @@
             </div>
         </div>
     </section>
+    </div>
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
         crossorigin="anonymous"></script>
 </body>
